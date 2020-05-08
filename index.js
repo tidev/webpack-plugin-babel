@@ -1,4 +1,4 @@
-/* eslint indent: "off" */
+/* eslint indent: ["error", "tab", { "MemberExpression": "off" }] */
 
 const path = require('path');
 
@@ -9,7 +9,7 @@ const {
 } = require('./utils');
 
 module.exports = function (api, options) {
-	const babelConfig = loadBabelConfig(api, options);
+	const { options: babelOptions } = loadBabelConfig(api, options);
 
 	api.chainWebpack(config => {
 		config.resolveLoader.modules.prepend(path.join(__dirname, 'node_modules'));
@@ -38,12 +38,12 @@ module.exports = function (api, options) {
 					.loader('cache-loader')
 					.options(api.generateCacheConfig(
 						'babel-loader',
-						generateCacheIdentifiers(babelConfig),
+						generateCacheIdentifiers(babelOptions),
 						[ 'babel.config.js' ]
 					))
 					.end()
 				.use('babel-loader')
 					.loader('babel-loader')
-					.options(babelConfig.options);
+					.options(babelOptions);
 	});
 };
