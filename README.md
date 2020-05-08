@@ -7,12 +7,12 @@
 To install this plugin in an existing project, run the following command in your project root:
 
 ```sh
-npm i @titanium-sdk/webpack-plugin-babel
+npm i -D @titanium-sdk/webpack-plugin-babel
 ```
 
 ## Configuration
 
-When installing this plugin into an existing project, create a `babel.config.js` to configure babel. For Titanium apps the [`@titanium-sdk/babel-preset-app`](https://github.com/appcelerator/babel-preset-app) is recommended (and is included in this plugin), but you can use any other Babel presets or plugins.
+When installing this plugin into an existing project, create a `babel.config.js` to configure babel. For Titanium apps the [`@titanium-sdk/babel-preset-app`](https://github.com/appcelerator/babel-preset-app) is recommended (and is already included in this plugin), but you can use any other Babel presets or plugins.
 
 ```js
 module.exports = {
