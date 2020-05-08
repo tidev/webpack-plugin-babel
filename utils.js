@@ -131,11 +131,11 @@ function loadBabelConfig(api, options) {
 	return babelConfig;
 }
 
-function generateCacheIdentifiers(babelConfig) {
+function generateCacheIdentifiers(babelOptions) {
 	return {
 		'@babel/core': require('@babel/core/package.json').version,
 		'babel-loader': require('babel-loader/package.json').version,
-		'dynamic-babel-config': babelConfig.options
+		'dynamic-babel-config': babelOptions
 	};
 }
 
