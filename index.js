@@ -12,7 +12,7 @@ module.exports = function (api, options) {
 	const { options: babelOptions } = loadBabelConfig(api, options);
 
 	api.chainWebpack(config => {
-		config.resolveLoader.modules.prepend(path.join(__dirname, 'node_modules'));
+		config.resolveLoader.modules.add(path.join(__dirname, 'node_modules'));
 
 		const transpileDepRegex = generateTranspileDepRegex(options.transpileDependencies || []);
 		config.module
