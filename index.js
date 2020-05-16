@@ -17,7 +17,6 @@ module.exports = function (api, options) {
 		const transpileDepRegex = generateTranspileDepRegex(options.transpileDependencies || []);
 		config.module
 			.rule('js')
-				.test(/\.m?js$/)
 				.exclude
 					.add(filepath => {
 						// transpile titanium-vdom and titanium-navigator
