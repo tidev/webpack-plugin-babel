@@ -24,6 +24,8 @@ module.exports = {
 
 New Titanium projects created with one of the Webpack project templates will already include this file.
 
+> 💡 **TIP:** In case you want to use another preset, we highly recommend to include [babel-plugin-transform-titanium](https://github.com/appcelerator/babel-plugin-transform-titanium) to inline various static values, which help to strip away dead code.
+
 ## Webpack configuration
 
 This plugin will add/modify the following Webpack options:
