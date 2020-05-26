@@ -18,7 +18,7 @@
     invariant "^2.2.4"
     semver "^5.5.0"
 
-"@babel/core@^7.8.3", "@babel/core@^7.9.6":
+"@babel/core@^7.9.6":
   version "7.9.6"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.9.6.tgz#d9aa1f580abf3b2286ef40b6904d390904c63376"
   integrity sha512-nD3deLvbsApbHAHttzIssYqgb883yU/d9roe4RZymBCDaZryMJDbptVpEpeQuRh4BJ+SYI8le9YGxKvFEvl1Wg==
@@ -581,7 +581,7 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.8.3"
 
-"@babel/plugin-transform-runtime@^7.8.3":
+"@babel/plugin-transform-runtime@^7.9.6":
   version "7.9.6"
   resolved "https://registry.yarnpkg.com/@babel/plugin-transform-runtime/-/plugin-transform-runtime-7.9.6.tgz#3ba804438ad0d880a17bca5eaa0cdf1edeedb2fd"
   integrity sha512-qcmiECD0mYOjOIt8YHNsAP1SxPooC/rDmfmiSK9BNY72EitdSc7l44WTEklaWuFtbOEBjNhWWyph/kOImbNJ4w==
@@ -636,7 +636,7 @@
     "@babel/helper-create-regexp-features-plugin" "^7.8.3"
     "@babel/helper-plugin-utils" "^7.8.3"
 
-"@babel/preset-env@^7.8.3":
+"@babel/preset-env@^7.9.6":
   version "7.9.6"
   resolved "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.9.6.tgz#df063b276c6455ec6fcfc6e53aacc38da9b0aea6"
   integrity sha512-0gQJ9RTzO0heXOhzftog+a/WyOuqMrAIugVYxMYf83gh1CQaQDjMtsOpqOwXyDL/5JcWsrCm8l4ju8QC97O7EQ==
@@ -713,7 +713,7 @@
     "@babel/types" "^7.4.4"
     esutils "^2.0.2"
 
-"@babel/runtime@^7.8.3", "@babel/runtime@^7.8.4":
+"@babel/runtime@^7.8.4", "@babel/runtime@^7.9.6":
   version "7.9.6"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.9.6.tgz#a9102eb5cadedf3f31d08a9ecf294af7827ea29f"
   integrity sha512-64AF1xY3OAkFHqOb9s4jpgk1Mm5vDZ4L3acHvAml+53nO1XbXLuDodsVpO4OIUsmemlUHMxNdYMNJmsvOwLrvQ==
@@ -753,17 +753,17 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@titanium-sdk/babel-preset-app@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@titanium-sdk/babel-preset-app/-/babel-preset-app-0.1.0.tgz#d9cce9bc178a0eb99346d93df5b1f741e3b5432f"
-  integrity sha512-5O2gHZDLw00pnBPCpFBEEqAerJE/JpXBW0Rm0hJcx8AGgHGsdkolCGvE3WYuoxDuCYwlWBpWHrn5ZtE1oGgwqQ==
+"@titanium-sdk/babel-preset-app@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@titanium-sdk/babel-preset-app/-/babel-preset-app-0.1.1.tgz#29462df29023e934c24eba28ce11c5dd45372217"
+  integrity sha512-DB7Go0TmVJ5Qxut/qVo2WPpvqZr//b9rcTm6RXcqocMkvMibHxAqwuQHIIXrcJtlcX58sie8zREq+6K47lj53g==
   dependencies:
-    "@babel/core" "^7.8.3"
-    "@babel/plugin-transform-runtime" "^7.8.3"
-    "@babel/preset-env" "^7.8.3"
-    "@babel/runtime" "^7.8.3"
+    "@babel/core" "^7.9.6"
+    "@babel/plugin-transform-runtime" "^7.9.6"
+    "@babel/preset-env" "^7.9.6"
+    "@babel/runtime" "^7.9.6"
     babel-plugin-transform-titanium "^0.1.1"
-    core-js "^3.6.4"
+    core-js "^3.6.5"
 
 "@types/color-name@^1.1.1":
   version "1.1.1"
@@ -1022,7 +1022,7 @@ core-js-compat@^3.6.2:
     browserslist "^4.8.5"
     semver "7.0.0"
 
-core-js@^3.6.4:
+core-js@^3.6.5:
   version "3.6.5"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.6.5.tgz#7395dc273af37fb2e50e9bd3d9fe841285231d1a"
   integrity sha512-vZVEEwZoIsI+vPEuoF9Iqf5H7/M3eeQqWlQnYa8FSKKePuYTf5MWnxb5SDAzCa60b3JBRS5g9b+Dq7b1y/RCrA==

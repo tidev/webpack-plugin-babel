@@ -25,7 +25,7 @@
   "homepage": "https://github.com/appcelerator/webpack-plugin-babel#readme",
   "dependencies": {
     "@babel/core": "^7.9.6",
-    "@titanium-sdk/babel-preset-app": "^0.1.0",
+    "@titanium-sdk/babel-preset-app": "^0.1.1",
     "babel-loader": "^8.1.0",
     "cache-loader": "^4.1.0",
     "lodash.defaultsdeep": "^4.6.1"
