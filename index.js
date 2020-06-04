@@ -11,6 +11,8 @@ const {
 module.exports = function (api, options) {
 	const { options: babelOptions } = loadBabelConfig(api, options);
 
+	api.watch([ 'babel.config.js' ]);
+
 	api.chainWebpack(config => {
 		config.resolveLoader.modules.add(path.join(__dirname, 'node_modules'));
 
