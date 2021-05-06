@@ -3,20 +3,6 @@ updates:
 - package-ecosystem: npm
   directory: "/"
   schedule:
-    interval: daily
+    interval: weekly
     time: "10:00"
   open-pull-requests-limit: 10
-  reviewers:
-  - janvennemann
-  ignore:
-  - dependency-name: "@babel/core"
-    versions:
-    - 7.12.13
-    - 7.12.16
-    - 7.13.1
-    - 7.13.13
-    - 7.13.8
-  - dependency-name: eslint
-    versions:
-    - 7.19.0
-    - 7.21.0
